@@ -1,0 +1,3 @@
+FÉNIX Academia V3 — sitio estático, sin backend.
+Copiar el contenido de fenix/ al DocumentRoot de capacitacionfenix.dssm.cl.
+Subir videos/01.mp4 ... videos/40.mp4 y documentacion/01.pdf ... documentacion/40.pdf según IDs de catalogo.js. Se detectan automáticamente al recargar. Apache debe responder HEAD con Content-Type video/mp4 o application/pdf y 404 para archivos inexistentes. Probar mediante HTTP(S), no file://. Usar datos ficticios; si los contenidos son internos, restringir acceso en Apache. No se incluyen videos ni manuales reales. Configurar DNS, VirtualHost y TLS en el servidor. 
