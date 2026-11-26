@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:24.500
+Fénix. Registrar la compra y el CDP. Incorporar el registro de la compra y su certificado de disponibilidad presupuestaria (CDP). Antes de empezar: Tenga los datos de la orden o licitación, los respaldos y los datos del CDP.
+
+00:00:24.500 --> 00:00:39.000
+Paso 1. Abrir Comprador. En el menú lateral, presione Comprador. Si la opción está más abajo, desplácese dentro del menú.
+
+00:00:39.000 --> 00:00:49.500
+Paso 2. Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.
+
+00:00:49.500 --> 00:01:00.500
+Paso 3. Seleccionar Registros de Compra. En el menú Acciones, seleccione Registros de Compra.
+
+00:01:00.500 --> 00:01:08.000
+Paso 4. Generar el registro. Presione Generar Registro.
+
+00:01:08.000 --> 00:01:24.000
+Paso 5. Completar la compra. Complete N° de Orden, N° de Licitación y Observación. Presione Siguiente para pasar a CDP.
+
+00:01:24.000 --> 00:01:34.500
+Paso 6. Abrir Agregar CDP. En el paso CDP, presione Agregar CDP.
+
+00:01:34.500 --> 00:01:52.000
+Paso 7. Completar el certificado. Complete Título, Solicitud N°, Plan de Compras y Detalle de la Compra. Seleccione los artículos del CDP.
+
+00:01:52.000 --> 00:02:14.500
+Paso 8. Revisar los datos presupuestarios. Desplácese hacia abajo. Revise Proveedor, Presupuesto, montos, Mes Devengado y Mes de Pago. Complete los demás datos que correspondan y presione Agregar CDP.
+
+00:02:14.500 --> 00:02:41.000
+Paso 9. Adjuntar respaldos y guardar. Vuelva al registro y avance con Siguiente a Adjuntos. Si necesita respaldos, seleccione cada archivo y presione Subir. Revise el listado y presione Guardar. Fénix generará el CDP con los datos ingresados.
+
+00:02:41.000 --> 00:03:09.500
+Resultado esperado. El registro de compra aparece en el listado y puede consultar los CDP que tiene asociados. Tenga presente. CDP significa certificado de disponibilidad presupuestaria. Registrar sus datos no equivale a completar la firma del CDP ni los envíos posteriores.

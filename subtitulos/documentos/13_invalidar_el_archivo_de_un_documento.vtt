@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:24.000
+Fénix. Invalidar el archivo de un documento. Dejar inhabilitado un archivo principal que no debe seguir utilizándose. Antes de empezar: Compruebe el archivo y el motivo. La pantalla advierte que la invalidación no se puede recuperar.
+
+00:00:24.000 --> 00:00:38.500
+Paso 1. Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.
+
+00:00:38.500 --> 00:00:52.000
+Paso 2. Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.
+
+00:00:52.000 --> 00:01:07.500
+Paso 3. Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.
+
+00:01:07.500 --> 00:01:21.500
+Paso 4. Desplegar el archivo. En el detalle, presione la fila que contiene el nombre del PDF para mostrar sus opciones.
+
+00:01:21.500 --> 00:01:35.500
+Paso 5. Abrir Invalidar Archivo. Compruebe el archivo y presione el icono rojo Invalidar Archivo, con un círculo tachado.
+
+00:01:35.500 --> 00:01:54.000
+Paso 6. Leer la advertencia e indicar el motivo. Lea la advertencia: el archivo quedará inhabilitado para las personas relacionadas. Escriba el Motivo de la invalidación.
+
+00:01:54.000 --> 00:02:13.500
+Paso 7. Confirmar únicamente si corresponde. Si está seguro, presione Invalidar Documento. Para salir sin hacerlo, use Cancelar. Compruebe el estado inválido y el historial.
+
+00:02:13.500 --> 00:02:39.500
+Resultado esperado. El archivo cambia a estado inválido y queda registrada la acción. Tenga presente. La acción se aplica al archivo asociado al registro. Si necesita reemplazarlo, agregue el PDF correcto después de comprobar la invalidación.

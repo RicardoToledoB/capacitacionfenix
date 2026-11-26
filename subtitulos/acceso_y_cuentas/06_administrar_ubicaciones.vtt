@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:21.000
+Fénix. Administrar ubicaciones. Crear y actualizar las ubicaciones de trabajo del establecimiento. Antes de empezar: Confirme el nombre, el tipo y la ubicación superior que tendrá la nueva ubicación.
+
+00:00:21.000 --> 00:00:38.000
+Paso 1. Abrir Mantenedor de Locaciones. En el menú lateral, presione Mantenedor de Locaciones. Si la opción está más abajo, desplácese dentro del menú.
+
+00:00:38.000 --> 00:00:55.500
+Paso 2. Crear o editar una ubicación. Revise Locaciones del establecimiento. Presione Nueva locación para agregar una, o el lápiz de la fila para editarla.
+
+00:00:55.500 --> 00:01:13.500
+Paso 3. Completar la ubicación. Escriba Nombre y seleccione Tipo de locación. Si corresponde, elija Locación padre: es la ubicación superior de la que depende.
+
+00:01:13.500 --> 00:01:23.000
+Paso 4. Guardar. Presione Guardar y compruebe la ubicación en el listado.
+
+00:01:23.000 --> 00:01:39.500
+Paso 5. Eliminar solo si corresponde. Para quitar una ubicación, use la papelera de su fila. Lea la confirmación del navegador antes de aceptar.
+
+00:01:39.500 --> 00:02:07.000
+Resultado esperado. La ubicación aparece en el listado con su nombre, tipo y dependencia. Tenga presente. En esta versión, esta administración se llama Mantenedor de Locaciones. También existe Mantenedor Ubicaciones asociado a compras; son pantallas diferentes.

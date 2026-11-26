@@ -1,402 +1,686 @@
 const tutoriales = [
   {
-    "id": 1,
-    "modulo": "Primeros pasos",
-    "perfil": "Todos los usuarios",
-    "titulo": "Bienvenida y presentación de FÉNIX",
-    "descripcion": "Objetivo: bienvenida y presentación de FÉNIX.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
     "id": 2,
+    "numero": 1,
+    "guia": "04",
     "modulo": "Primeros pasos",
     "perfil": "Todos los usuarios",
-    "titulo": "Cómo solicitar una cuenta",
-    "descripcion": "Objetivo: cómo solicitar una cuenta.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Solicitar una cuenta",
+    "descripcion": "Tenga sus datos personales, correo institucional y ubicación de trabajo.",
+    "pasos": [
+      "Abrir Solicitar Cuenta. En la pantalla de ingreso, presione Solicitar Cuenta.",
+      "Completar los datos personales. Complete Nombre, Primer Apellido, Segundo Apellido, RUT y Correo electronico. Revise el dominio que ya muestra el formulario para no repetirlo.",
+      "Indicar dónde trabaja. Seleccione Establecimiento y luego Dirección, Subdirección, Departamento y Unidad, según corresponda. Complete el anexo.",
+      "Enviar la solicitud. Revise sus datos y presione Enviar Correo. Espere la respuesta a su solicitud; el envío por sí solo no habilita el ingreso."
+    ],
+    "video": "videos/acceso_y_cuentas/04_solicitar_una_cuenta.mp4",
+    "documento": "documentacion/acceso_y_cuentas/04_solicitar_una_cuenta.pdf",
+    "subtitulos": "subtitulos/acceso_y_cuentas/04_solicitar_una_cuenta.vtt",
+    "duracion": 106.0
   },
   {
     "id": 3,
+    "numero": 2,
+    "guia": "01",
     "modulo": "Primeros pasos",
     "perfil": "Todos los usuarios",
-    "titulo": "Cómo ingresar a FÉNIX",
-    "descripcion": "Objetivo: cómo ingresar a FÉNIX.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Ingresar a Fénix",
+    "descripcion": "Tenga su RUT y su contraseña.",
+    "pasos": [
+      "Escribir el RUT. En la pantalla de ingreso, escriba su RUT. Fénix le dará formato mientras escribe.",
+      "Escribir la contraseña. Escriba su contraseña en Contraseña. Los caracteres quedan ocultos.",
+      "Ingresar. Presione Ingresar y espere a que se abra su sesión.",
+      "Reconocer su sesión. Compruebe que su nombre aparezca en la parte superior. El botón de tres líneas permite mostrar u ocultar el menú."
+    ],
+    "video": "videos/acceso_y_cuentas/01_ingresar_a_fenix.mp4",
+    "documento": "documentacion/acceso_y_cuentas/01_ingresar_a_fenix.pdf",
+    "subtitulos": "subtitulos/acceso_y_cuentas/01_ingresar_a_fenix.vtt",
+    "duracion": 89.5
   },
   {
     "id": 4,
+    "numero": 3,
+    "guia": "02",
     "modulo": "Primeros pasos",
     "perfil": "Todos los usuarios",
-    "titulo": "Cómo recuperar mi contraseña",
-    "descripcion": "Objetivo: cómo recuperar mi contraseña.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 5,
-    "modulo": "Primeros pasos",
-    "perfil": "Todos los usuarios",
-    "titulo": "Conociendo la interfaz de FÉNIX",
-    "descripcion": "Objetivo: conociendo la interfaz de FÉNIX.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Recuperar la contraseña",
+    "descripcion": "Necesita acceso al correo registrado en su cuenta.",
+    "pasos": [
+      "Abrir la recuperación. En la pantalla de ingreso, presione ¿Olvidó su contraseña?",
+      "Solicitar el correo. Escriba su RUT en Favor de ingresar su rut y presione Recuperar. El mensaje se envía al correo de su cuenta.",
+      "Abrir el enlace del correo. Abra su correo y siga el enlace de recuperación. Revise también el correo no deseado. Si no llega, contacte al administrador de su establecimiento.",
+      "Ingresar la nueva contraseña. En Restablecer Contraseña, escriba la nueva contraseña y repítala en Confirmar Contraseña.",
+      "Confirmar el cambio. Presione Actualizar Contraseña. Después vuelva a Fénix e ingrese con la nueva contraseña."
+    ],
+    "video": "videos/acceso_y_cuentas/02_recuperar_la_contrasena.mp4",
+    "documento": "documentacion/acceso_y_cuentas/02_recuperar_la_contrasena.pdf",
+    "subtitulos": "subtitulos/acceso_y_cuentas/02_recuperar_la_contrasena.vtt",
+    "duracion": 117.5
   },
   {
     "id": 6,
+    "numero": 4,
+    "guia": "03",
     "modulo": "Primeros pasos",
     "perfil": "Todos los usuarios",
-    "titulo": "Cómo validar la firma de un documento",
-    "descripcion": "Objetivo: cómo validar la firma de un documento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Verificar un documento",
+    "descripcion": "Ubique el ID del documento y su código de verificación. El ID no es el número del memorándum u oficio.",
+    "pasos": [
+      "Abrir el verificador. En la pantalla de ingreso, presione Validar Documento. Puede abrirlo sin iniciar sesión.",
+      "Ingresar los datos. Complete ID del Documento y Código de Verificación con los datos que aparecen en el documento.",
+      "Verificar. Presione Verificar. Revise el documento y los datos que Fénix muestra. Si no hay resultados, compruebe ambos datos y vuelva a intentar."
+    ],
+    "video": "videos/acceso_y_cuentas/03_verificar_un_documento.mp4",
+    "documento": "documentacion/acceso_y_cuentas/03_verificar_un_documento.pdf",
+    "subtitulos": "subtitulos/acceso_y_cuentas/03_verificar_un_documento.vtt",
+    "duracion": 94.5
   },
   {
     "id": 7,
+    "numero": 5,
+    "guia": "07",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo crear un documento",
-    "descripcion": "Objetivo: cómo crear un documento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Crear un documento",
+    "descripcion": "Tenga el número, la materia y el tipo del documento.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Mis Documentos. Seleccione la pestaña Mis Documentos.",
+      "Crear el registro. Presione Crear Documento.",
+      "Completar los datos. Complete Número de Documento, Descripción / Materia y Tipo de Documento. Si aparece Remitente, selecciónelo.",
+      "Guardar el documento. Revise la información y presione Guardar Documento. El registro aparecerá en Mis Documentos. Luego podrá abrir su detalle para agregar el PDF."
+    ],
+    "video": "videos/documentos/07_crear_un_documento.mp4",
+    "documento": "documentacion/documentos/07_crear_un_documento.pdf",
+    "subtitulos": "subtitulos/documentos/07_crear_un_documento.vtt",
+    "duracion": 106.0
   },
   {
     "id": 8,
+    "numero": 6,
+    "guia": "08",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo incorporar archivos adjuntos",
-    "descripcion": "Objetivo: cómo incorporar archivos adjuntos.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Agregar archivos a un documento",
+    "descripcion": "Prepare el archivo principal en formato PDF.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.",
+      "Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.",
+      "Agregar el PDF principal. Revise el número y la materia. Presione Agregar Archivo. El botón está disponible cuando no existe un archivo principal válido.",
+      "Elegir el archivo del equipo. En la ventana de archivos de su equipo, seleccione el PDF y espere a que termine la carga.",
+      "Abrir el archivo cargado. Compruebe el nombre del PDF y presione su fila para desplegar las opciones.",
+      "Abrir los adjuntos. Para agregar respaldos del archivo, presione el icono del clip.",
+      "Seleccionar los respaldos y subirlos. Seleccione los PDF en Seleccionar archivos PDF y presione Subir. Compruebe que aparezcan en el listado."
+    ],
+    "video": "videos/documentos/08_agregar_archivos_a_un_documento.mp4",
+    "documento": "documentacion/documentos/08_agregar_archivos_a_un_documento.pdf",
+    "subtitulos": "subtitulos/documentos/08_agregar_archivos_a_un_documento.vtt",
+    "duracion": 174.0
   },
   {
     "id": 9,
+    "numero": 7,
+    "guia": "09",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo enviar un documento para conocimiento",
-    "descripcion": "Objetivo: cómo enviar un documento para conocimiento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 10,
-    "modulo": "Gestión documental",
-    "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo enviar un documento para visación",
-    "descripcion": "Objetivo: cómo enviar un documento para visación.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 11,
-    "modulo": "Gestión documental",
-    "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo enviar un documento para firma",
-    "descripcion": "Objetivo: cómo enviar un documento para firma.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 12,
-    "modulo": "Gestión documental",
-    "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo visar un documento",
-    "descripcion": "Objetivo: cómo visar un documento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 13,
-    "modulo": "Gestión documental",
-    "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo firmar un documento",
-    "descripcion": "Objetivo: cómo firmar un documento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 14,
-    "modulo": "Gestión documental",
-    "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo rechazar una firma o visación",
-    "descripcion": "Objetivo: cómo rechazar una firma o visación.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Enviar un documento para conocimiento, visado o firma",
+    "descripcion": "Revise el PDF y confirme quién debe recibirlo y con qué propósito.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.",
+      "Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.",
+      "Desplegar el archivo. En el detalle, presione la fila que contiene el nombre del PDF para mostrar sus opciones.",
+      "Abrir el envío. En las opciones del archivo, presione Enviar documento.",
+      "Elegir a las personas. Complete las listas que necesite: Destinatarios para conocimiento, Visadores para el visto bueno y Firmante para la firma.",
+      "Revisar y enviar. Agregue una Observación si corresponde. Revise las personas seleccionadas y presione Enviar documento. Compruebe el envío en los listados del archivo."
+    ],
+    "video": "videos/documentos/09_enviar_un_documento_para_conocimiento_visado_o_firma.mp4",
+    "documento": "documentacion/documentos/09_enviar_un_documento_para_conocimiento_visado_o_firma.pdf",
+    "subtitulos": "subtitulos/documentos/09_enviar_un_documento_para_conocimiento_visado_o_firma.vtt",
+    "duracion": 154.5
   },
   {
     "id": 15,
+    "numero": 8,
+    "guia": "10",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo corregir un envío de firma o visación",
-    "descripcion": "Objetivo: cómo corregir un envío de firma o visación.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Corregir un envío de visado o firma",
+    "descripcion": "Compruebe que la visación o firma que desea corregir siga pendiente.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.",
+      "Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.",
+      "Desplegar el archivo. En el detalle, presione la fila que contiene el nombre del PDF para mostrar sus opciones.",
+      "Abrir la lista pendiente. Presione el listado verde de visadores o el rojo de firmantes, según el envío que necesita corregir.",
+      "Retirar a la persona equivocada. Ubique a la persona y compruebe que siga por visar o por firmar. Si usted originó el envío, use Eliminar en su fila. La imagen muestra visadores.",
+      "Confirmar y reenviar correctamente. Confirme con Sí, remover. Luego cierre la lista, abra Enviar documento y seleccione a la persona correcta. Compruebe la nueva lista y el historial."
+    ],
+    "video": "videos/documentos/10_corregir_un_envio_de_visado_o_firma.mp4",
+    "documento": "documentacion/documentos/10_corregir_un_envio_de_visado_o_firma.pdf",
+    "subtitulos": "subtitulos/documentos/10_corregir_un_envio_de_visado_o_firma.vtt",
+    "duracion": 163.0
+  },
+  {
+    "id": 12,
+    "numero": 9,
+    "guia": "33",
+    "modulo": "Gestión documental",
+    "perfil": "Usuarios de gestión documental",
+    "titulo": "Firmar o visar un documento",
+    "descripcion": "Lea el archivo y compruebe que la tarea esté pendiente a su nombre. Después de abrirlo, siga únicamente el recorrido de visado o el de firma, según corresponda.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir Firmas o Visaciones. Seleccione Firmas o Visaciones, según la tarea que tiene pendiente.",
+      "Abrir el documento pendiente. Ubique el documento asignado a usted y presione Ver detalle del documento.",
+      "Desplegar el archivo. Presione la fila del PDF para mostrar sus opciones.",
+      "Visar. Presione el botón verde Visar, con una marca de verificación.",
+      "Perfil y visar. Seleccione el perfil que corresponde y presione el botón verde Visar, con una marca de verificación.",
+      "Si realiza una firma. Para una firma pendiente, use el botón rojo Firmar del archivo.",
+      "Firmar Documento. Seleccione su perfil y presione Continuar.",
+      "Abrir las opciones de su firma. Seleccione el tipo de firma que utiliza su establecimiento. Esta selección abre las opciones del perfil; todavía no firma el documento.",
+      "Firmar de forma simple. En la pantalla seleccione perfil y presione continuar.",
+      "Firma Avanzada. Seleccione el perfil de firma y presione continuar.",
+      "Codigo OTP. Escriba el OTP correspondiente que se le otorga con la firma avanzada."
+    ],
+    "video": "videos/documentos/33_firmar_o_visar_un_documento.mp4",
+    "documento": "documentacion/documentos/33_firmar_o_visar_un_documento.pdf",
+    "subtitulos": "subtitulos/documentos/33_firmar_o_visar_un_documento.vtt",
+    "duracion": 208.0
+  },
+  {
+    "id": 14,
+    "numero": 10,
+    "guia": "11",
+    "modulo": "Gestión documental",
+    "perfil": "Usuarios de gestión documental",
+    "titulo": "Rechazar una firma o un visado",
+    "descripcion": "Lea el archivo y compruebe que la tarea esté pendiente a su nombre. Después de abrirlo, siga únicamente el recorrido de visado o el de firma, según corresponda.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir Firmas o Visaciones. Seleccione Firmas o Visaciones, según la tarea que tiene pendiente.",
+      "Abrir el documento pendiente. Ubique el documento asignado a usted y presione Ver detalle del documento.",
+      "Desplegar el archivo. Presione la fila del PDF para mostrar sus opciones.",
+      "Si rechaza un visado. Presione el botón verde Visar, con una marca de verificación.",
+      "Registrar No Pertinente. Seleccione su perfil y presione No Pertinente. Esta es la opción que registra el rechazo del visado.",
+      "Si rechaza una firma. Para una firma pendiente, use el botón rojo Firmar del archivo.",
+      "Abrir las opciones de su firma. Seleccione el tipo de firma que utiliza su establecimiento. Esta selección abre las opciones del perfil; todavía no firma el documento.",
+      "Abrir Rechazar Firma. En la pantalla de perfil, presione Rechazar Firma.",
+      "Justificar el rechazo. Escriba el motivo en Observaciones y presione Confirmar Rechazo. Después revise el estado y el historial."
+    ],
+    "video": "videos/documentos/11_rechazar_una_firma_o_un_visado.mp4",
+    "documento": "documentacion/documentos/11_rechazar_una_firma_o_un_visado.pdf",
+    "subtitulos": "subtitulos/documentos/11_rechazar_una_firma_o_un_visado.vtt",
+    "duracion": 185.5
   },
   {
     "id": 16,
+    "numero": 11,
+    "guia": "12",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo marcar un documento como leído",
-    "descripcion": "Objetivo: cómo marcar un documento como leído.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Marcar un documento como leído",
+    "descripcion": "Identifique la fila del documento que ya revisó.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Ubicar el documento recibido. Abra Solicitudes y ubique el documento por ID, número o descripción.",
+      "Cambiar la marca de lectura. Ponga el puntero sobre el ojo tachado de su fila. La ayuda indica Marcar como leido. Presiónelo y espere la confirmación.",
+      "Comprobar la bandeja. Revise la nueva marca. Puede usar Leido y No Leido para comprobar la bandeja. Si ya estaba leído, el mismo icono permite marcarlo como no leído."
+    ],
+    "video": "videos/documentos/12_marcar_un_documento_como_leido.mp4",
+    "documento": "documentacion/documentos/12_marcar_un_documento_como_leido.pdf",
+    "subtitulos": "subtitulos/documentos/12_marcar_un_documento_como_leido.vtt",
+    "duracion": 106.0
   },
   {
     "id": 17,
+    "numero": 12,
+    "guia": "13",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo invalidar un documento",
-    "descripcion": "Objetivo: cómo invalidar un documento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Invalidar el archivo de un documento",
+    "descripcion": "Compruebe el archivo y el motivo. La pantalla advierte que la invalidación no se puede recuperar.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.",
+      "Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.",
+      "Desplegar el archivo. En el detalle, presione la fila que contiene el nombre del PDF para mostrar sus opciones.",
+      "Abrir Invalidar Archivo. Compruebe el archivo y presione el icono rojo Invalidar Archivo, con un círculo tachado.",
+      "Leer la advertencia e indicar el motivo. Lea la advertencia: el archivo quedará inhabilitado para las personas relacionadas. Escriba el Motivo de la invalidación.",
+      "Confirmar únicamente si corresponde. Si está seguro, presione Invalidar Documento. Para salir sin hacerlo, use Cancelar. Compruebe el estado inválido y el historial."
+    ],
+    "video": "videos/documentos/13_invalidar_el_archivo_de_un_documento.mp4",
+    "documento": "documentacion/documentos/13_invalidar_el_archivo_de_un_documento.pdf",
+    "subtitulos": "subtitulos/documentos/13_invalidar_el_archivo_de_un_documento.vtt",
+    "duracion": 159.5
   },
   {
     "id": 18,
+    "numero": 13,
+    "guia": "14",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo consultar el historial de un documento",
-    "descripcion": "Objetivo: cómo consultar el historial de un documento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Consultar el historial de un documento",
+    "descripcion": "Identifique el archivo cuyo historial necesita revisar.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.",
+      "Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.",
+      "Desplegar el archivo. En el detalle, presione la fila que contiene el nombre del PDF para mostrar sus opciones.",
+      "Leer los movimientos. Revise la tabla Origen, Destino, Estado y Fecha que aparece bajo las opciones del archivo.",
+      "Consultar observaciones y otras páginas. Use el icono de observación del movimiento para leer su detalle. Si hay más movimientos, use los controles de página de la tabla."
+    ],
+    "video": "videos/documentos/14_consultar_el_historial_de_un_documento.mp4",
+    "documento": "documentacion/documentos/14_consultar_el_historial_de_un_documento.pdf",
+    "subtitulos": "subtitulos/documentos/14_consultar_el_historial_de_un_documento.vtt",
+    "duracion": 134.5
   },
   {
     "id": 19,
+    "numero": 14,
+    "guia": "15",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo buscar y filtrar documentos",
-    "descripcion": "Objetivo: cómo buscar y filtrar documentos.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 20,
-    "modulo": "Gestión documental",
-    "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo crear y administrar carpetas",
-    "descripcion": "Objetivo: cómo crear y administrar carpetas.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Buscar y filtrar documentos",
+    "descripcion": "Tenga al menos un dato, como número, descripción, tipo o fecha.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la bandeja y el filtro. Abra Solicitudes, Mis Documentos, Firmas o Visaciones. Use los filtros de estado o lectura disponibles.",
+      "Abrir Búsqueda avanzada. Presione la lupa negra de la parte superior.",
+      "Escribir los criterios y buscar. Complete al menos un dato, por ejemplo ID, número o descripción. Presione Buscar.",
+      "Revisar los resultados. En Resultados de Búsqueda, ubique el registro y use Ver detalle del documento. Si no aparece, revise los criterios y vuelva a buscar."
+    ],
+    "video": "videos/documentos/15_buscar_y_filtrar_documentos.mp4",
+    "documento": "documentacion/documentos/15_buscar_y_filtrar_documentos.pdf",
+    "subtitulos": "subtitulos/documentos/15_buscar_y_filtrar_documentos.vtt",
+    "duracion": 117.5
   },
   {
     "id": 21,
+    "numero": 15,
+    "guia": "16",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo organizar documentos en carpetas",
-    "descripcion": "Objetivo: cómo organizar documentos en carpetas.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Organizar documentos en carpetas",
+    "descripcion": "Tenga creada la carpeta de destino.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir la bandeja recibida. Abra Solicitudes y ubique el documento que desea organizar.",
+      "Abrir Agregar a Carpeta. En su fila, presione el icono de carpeta con el signo +.",
+      "Elegir la carpeta y guardar. Seleccione la carpeta de destino y presione Guardar.",
+      "Consultar la carpeta. Abra Carpetas en el menú lateral y seleccione su carpeta.",
+      "Reorganizar si lo necesita. Dentro de la carpeta, use Cambiar carpeta para mover el documento o Quitar documento de la carpeta para retirarlo de esa agrupación. Revise la confirmación."
+    ],
+    "video": "videos/documentos/16_organizar_documentos_en_carpetas.mp4",
+    "documento": "documentacion/documentos/16_organizar_documentos_en_carpetas.pdf",
+    "subtitulos": "subtitulos/documentos/16_organizar_documentos_en_carpetas.vtt",
+    "duracion": 115.0
+  },
+  {
+    "id": 20,
+    "numero": 16,
+    "guia": "17",
+    "modulo": "Gestión documental",
+    "perfil": "Usuarios de gestión documental",
+    "titulo": "Crear y eliminar carpetas",
+    "descripcion": "Elija un nombre fácil de reconocer, por ejemplo, Capacitación 2026.",
+    "pasos": [
+      "Abrir Carpetas. En el menú lateral, abra Carpetas.",
+      "Crear una carpeta. Presione Crear Carpeta.",
+      "Completar y guardar. Escriba Nombre de la carpeta y Descripción. Presione Guardar y compruebe que aparezca en el menú.",
+      "Abrir una carpeta existente. Seleccione el nombre de la carpeta en el menú para ver su contenido.",
+      "Eliminar si corresponde. Abra la carpeta y presione Eliminar carpeta.",
+      "Revisar la confirmación. Lea la advertencia sobre el contenido. Use Eliminar para confirmar o Cancelar para conservar la carpeta."
+    ],
+    "video": "videos/documentos/17_crear_y_eliminar_carpetas.mp4",
+    "documento": "documentacion/documentos/17_crear_y_eliminar_carpetas.pdf",
+    "subtitulos": "subtitulos/documentos/17_crear_y_eliminar_carpetas.vtt",
+    "duracion": 112.5
   },
   {
     "id": 22,
+    "numero": 17,
+    "guia": "18",
     "modulo": "Gestión documental",
     "perfil": "Usuarios de gestión documental",
-    "titulo": "Cómo exportar documentos a Excel",
-    "descripcion": "Objetivo: cómo exportar documentos a Excel.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Exportar documentos a Excel",
+    "descripcion": "Revise la cuenta con la que inició sesión.",
+    "pasos": [
+      "Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.",
+      "Ubicar Exportar. En la parte superior de Documentos, ubique el botón verde Exportar.",
+      "Descargar la planilla. Presione Exportar y espere la descarga.",
+      "Abrir el archivo descargado. Busque REPORTE_DOCUMENTOS seguido de la fecha en Descargas. Ábralo en Excel u otra aplicación compatible y revise los registros antes de compartirlo."
+    ],
+    "video": "videos/documentos/18_exportar_documentos_a_excel.mp4",
+    "documento": "documentacion/documentos/18_exportar_documentos_a_excel.pdf",
+    "subtitulos": "subtitulos/documentos/18_exportar_documentos_a_excel.vtt",
+    "duracion": 99.5
   },
   {
     "id": 23,
+    "numero": 18,
+    "guia": "19",
     "modulo": "Solicitudes de compra",
     "perfil": "Unidad requirente",
-    "titulo": "Cómo crear una solicitud de compra",
-    "descripcion": "Objetivo: cómo crear una solicitud de compra.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 24,
-    "modulo": "Solicitudes de compra",
-    "perfil": "Unidad requirente",
-    "titulo": "Cómo incorporar artículos y archivos adjuntos",
-    "descripcion": "Objetivo: cómo incorporar artículos y archivos adjuntos.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Crear una solicitud de compra",
+    "descripcion": "Tenga la justificación, la fecha de uso, los artículos o servicios y sus valores aproximados.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Crear la solicitud. Presione Crear solicitud de compra.",
+      "Completar los datos generales. Seleccione el tipo, la Fecha estimada de uso y la Justificación/Observación.",
+      "Abrir Artículos/Servicios. Seleccione el paso Artículos/Servicios de la parte superior.",
+      "Agregar los artículos. Seleccione Programa y artículo o servicio. Complete Cantidad, Precio aproximado y Observación. Presione Agregar Artículo. Repita para cada ítem y revise el listado.",
+      "Abrir Adjuntos. Seleccione Adjuntos en la parte superior.",
+      "Agregar los respaldos y guardar. Seleccione cada archivo y presione Subir. Compruebe el listado. Revise las tres secciones y presione Guardar Solicitud."
+    ],
+    "video": "videos/solicitudes_de_compra/19_crear_una_solicitud_de_compra.mp4",
+    "documento": "documentacion/solicitudes_de_compra/19_crear_una_solicitud_de_compra.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/19_crear_una_solicitud_de_compra.vtt",
+    "duracion": 151.0
   },
   {
     "id": 25,
+    "numero": 19,
+    "guia": "20",
     "modulo": "Solicitudes de compra",
     "perfil": "Unidad requirente",
-    "titulo": "Cómo generar un reporte de solicitud de compra",
-    "descripcion": "Objetivo: cómo generar un reporte de solicitud de compra.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Generar el reporte de una solicitud",
+    "descripcion": "Compruebe el ID de la solicitud que necesita reportar.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Generar Reporte. En el menú Acciones, seleccione Generar Reporte.",
+      "Guardar o imprimir el reporte. Espere el PDF. Revise sus datos y use las opciones del navegador o visor para guardar o imprimir. Si se abrió otra pestaña, vuelva a Fénix para continuar."
+    ],
+    "video": "videos/solicitudes_de_compra/20_generar_el_reporte_de_una_solicitud.mp4",
+    "documento": "documentacion/solicitudes_de_compra/20_generar_el_reporte_de_una_solicitud.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/20_generar_el_reporte_de_una_solicitud.vtt",
+    "duracion": 101.5
   },
   {
     "id": 26,
+    "numero": 20,
+    "guia": "21",
     "modulo": "Solicitudes de compra",
     "perfil": "Unidad requirente",
-    "titulo": "Cómo modificar una solicitud de compra",
-    "descripcion": "Objetivo: cómo modificar una solicitud de compra.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 27,
-    "modulo": "Solicitudes de compra",
-    "perfil": "Unidad requirente",
-    "titulo": "Cómo enviar una solicitud para autorización",
-    "descripcion": "Objetivo: cómo enviar una solicitud para autorización.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Modificar una solicitud de compra",
+    "descripcion": "Revise el estado y las observaciones recibidas antes de cambiar los datos.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Editar Solicitud. En el menú Acciones, seleccione Editar Solicitud.",
+      "Corregir la información. Revise Datos de la solicitud, Artículos/Servicios y Adjuntos. Corrija únicamente lo que corresponda y compruebe las observaciones recibidas.",
+      "Guardar y comprobar. Presione Guardar Cambios. Después abra nuevamente el detalle y compruebe la información. Si la edición está bloqueada, coordine la corrección con quien revisa la solicitud."
+    ],
+    "video": "videos/solicitudes_de_compra/21_modificar_una_solicitud_de_compra.mp4",
+    "documento": "documentacion/solicitudes_de_compra/21_modificar_una_solicitud_de_compra.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/21_modificar_una_solicitud_de_compra.vtt",
+    "duracion": 124.0
   },
   {
     "id": 28,
+    "numero": 21,
+    "guia": "22",
     "modulo": "Solicitudes de compra",
     "perfil": "Unidad requirente",
-    "titulo": "Cómo buscar solicitudes de compra",
-    "descripcion": "Objetivo: cómo buscar solicitudes de compra.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 29,
-    "modulo": "Solicitudes de compra",
-    "perfil": "Unidad requirente",
-    "titulo": "Cómo consultar el estado e historial de una solicitud",
-    "descripcion": "Objetivo: cómo consultar el estado e historial de una solicitud.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 30,
-    "modulo": "Solicitudes de compra",
-    "perfil": "Unidad requirente",
-    "titulo": "Cómo agregar observaciones",
-    "descripcion": "Objetivo: cómo agregar observaciones.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Buscar solicitudes de compra",
+    "descripcion": "Tenga el ID u otro dato que permita reconocer la solicitud.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Búsqueda avanzada. Presione la lupa de la parte superior de la bandeja.",
+      "Completar los criterios. Complete al menos un campo y presione Buscar. Puede combinar datos para precisar la búsqueda.",
+      "Volver al listado completo. Para quitar los criterios, abra nuevamente la lupa y presione Limpiar. Revise también la bandeja y la pestaña de estado si no encuentra la solicitud."
+    ],
+    "video": "videos/solicitudes_de_compra/22_buscar_solicitudes_de_compra.mp4",
+    "documento": "documentacion/solicitudes_de_compra/22_buscar_solicitudes_de_compra.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/22_buscar_solicitudes_de_compra.vtt",
+    "duracion": 104.0
   },
   {
     "id": 31,
+    "numero": 22,
+    "guia": "23",
     "modulo": "Solicitudes de compra",
     "perfil": "Unidad requirente",
-    "titulo": "Cómo exportar solicitudes de compra a Excel",
-    "descripcion": "Objetivo: cómo exportar solicitudes de compra a Excel.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Exportar solicitudes a Excel",
+    "descripcion": "Compruebe la bandeja desde la que hará la descarga.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Ubicar la exportación. En la parte superior de la bandeja, ubique Exportar a Excel.",
+      "Descargar la planilla. Presione Exportar a Excel y espere la descarga del archivo .xlsx.",
+      "Revisar la descarga. Abra Descargas y luego la planilla con Excel u otra aplicación compatible. Compruebe sus registros y columnas antes de compartirla."
+    ],
+    "video": "videos/solicitudes_de_compra/23_exportar_solicitudes_a_excel.mp4",
+    "documento": "documentacion/solicitudes_de_compra/23_exportar_solicitudes_a_excel.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/23_exportar_solicitudes_a_excel.vtt",
+    "duracion": 103.5
+  },
+  {
+    "id": 27,
+    "numero": 23,
+    "guia": "24",
+    "modulo": "Solicitudes de compra",
+    "perfil": "Unidad requirente",
+    "titulo": "Enviar una solicitud para autorizar",
+    "descripcion": "Revise datos, artículos y adjuntos; confirme quién debe recibirla.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Enviar Solicitud. En el menú Acciones, seleccione Enviar Solicitud.",
+      "Revisar lo que enviará. Revise Datos de la solicitud, Articulos y Adjuntos antes de elegir al destinatario.",
+      "Elegir al funcionario y enviar. En Seleccionar funcionario, elija a la persona que debe recibirla en esta etapa. Compruebe el nombre y presione Enviar. Revise el estado y los responsables después del envío."
+    ],
+    "video": "videos/solicitudes_de_compra/24_enviar_una_solicitud_para_autorizar.mp4",
+    "documento": "documentacion/solicitudes_de_compra/24_enviar_una_solicitud_para_autorizar.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/24_enviar_una_solicitud_para_autorizar.vtt",
+    "duracion": 124.0
+  },
+  {
+    "id": 29,
+    "numero": 24,
+    "guia": "25",
+    "modulo": "Solicitudes de compra",
+    "perfil": "Unidad requirente",
+    "titulo": "Consultar el historial de una solicitud",
+    "descripcion": "Identifique la solicitud por su ID.",
+    "pasos": [
+      "Abrir Solicitudes de Compra. En el menú lateral, presione Solicitudes de Compra. Si la opción está más abajo, desplácese dentro del menú.",
+      "Desplegar la solicitud. Ubique la solicitud por su ID y presione la flecha de su fila para desplegar el detalle.",
+      "Abrir el historial. Presione Historial de Movimientos.",
+      "Leer los movimientos. Revise participantes, estados, fechas y descripciones.",
+      "Consultar quién interviene. Si necesita saber quién participa en la tramitación, abra Responsables."
+    ],
+    "video": "videos/solicitudes_de_compra/25_consultar_el_historial_de_una_solicitud.mp4",
+    "documento": "documentacion/solicitudes_de_compra/25_consultar_el_historial_de_una_solicitud.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/25_consultar_el_historial_de_una_solicitud.vtt",
+    "duracion": 107.5
+  },
+  {
+    "id": 30,
+    "numero": 25,
+    "guia": "26",
+    "modulo": "Solicitudes de compra",
+    "perfil": "Unidad requirente",
+    "titulo": "Enviar una observación a una solicitud",
+    "descripcion": "Identifique qué dato o documento necesita corregirse.",
+    "pasos": [
+      "Abrir su bandeja de revisión. Abra la bandeja que utiliza para revisar solicitudes. El ejemplo muestra Autorizar compras en el menú lateral.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Enviar Observación. En el menú Acciones, seleccione Enviar Observación.",
+      "Escribir la observación. Compruebe el ID de la solicitud. En Mensaje de observación, indique qué dato o respaldo debe corregirse o aclararse.",
+      "Enviar al solicitante. Revise el mensaje y presione Enviar Observación. Compruebe la observación registrada y espere la respuesta o corrección del solicitante."
+    ],
+    "video": "videos/solicitudes_de_compra/26_enviar_una_observacion_a_una_solicitud.mp4",
+    "documento": "documentacion/solicitudes_de_compra/26_enviar_una_observacion_a_una_solicitud.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/26_enviar_una_observacion_a_una_solicitud.vtt",
+    "duracion": 117.5
   },
   {
     "id": 32,
+    "numero": 26,
+    "guia": "27",
     "modulo": "Autorización y gestión de compras",
     "perfil": "Requirente",
-    "titulo": "Cómo derivar una solicitud a la SDAF",
-    "descripcion": "Objetivo: cómo derivar una solicitud a la SDAF.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Enviar a la Subdirección Administrativa y Financiera",
+    "descripcion": "Revise que la solicitud esté completa y corresponda a ese establecimiento.",
+    "pasos": [
+      "Abrir su bandeja de revisión. Abra la bandeja de revisión donde tiene habilitado el envío a la subdirección. El ejemplo muestra Autorizar compras.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Enviar a Subdirección. En el menú Acciones, seleccione Enviar a Subdirección.",
+      "Confirmar el destino. Lea el mensaje y revise Seleccionar Establecimiento de destino. Confirme que corresponde a la solicitud.",
+      "Enviar a la subdirección. Presione Enviar a Subdirección. Compruebe en el estado o historial que pasó a revisión de la Subdirección Administrativa y Financiera."
+    ],
+    "video": "videos/solicitudes_de_compra/27_enviar_a_la_subdireccion_administrativa_y_financiera.mp4",
+    "documento": "documentacion/solicitudes_de_compra/27_enviar_a_la_subdireccion_administrativa_y_financiera.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/27_enviar_a_la_subdireccion_administrativa_y_financiera.vtt",
+    "duracion": 120.5
   },
   {
     "id": 33,
+    "numero": 27,
+    "guia": "28",
     "modulo": "Autorización y gestión de compras",
     "perfil": "Presupuesto",
-    "titulo": "Cómo revisar y autorizar una solicitud presupuestaria",
-    "descripcion": "Objetivo: cómo revisar y autorizar una solicitud presupuestaria.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Revisar y autorizar desde Presupuesto",
+    "descripcion": "Confirme que la solicitud esté asignada a su función y lista para revisión.",
+    "pasos": [
+      "Abrir Presupuesto. En el menú lateral, presione Presupuesto. Si la opción está más abajo, desplácese dentro del menú.",
+      "Revisar la solicitud. Ubique la solicitud en la bandeja que corresponde a su función. Despliegue la flecha para revisar datos, artículos y adjuntos.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Autorizar Solicitud. En el menú Acciones, seleccione Autorizar Solicitud.",
+      "Registrar la decisión. Revise la información y presione Autorizar si corresponde. Para rechazar, use Rechazar e indique el motivo solicitado. Si necesita una corrección previa, vuelva a Acciones → Enviar Observación."
+    ],
+    "video": "videos/solicitudes_de_compra/28_revisar_y_autorizar_desde_presupuesto.mp4",
+    "documento": "documentacion/solicitudes_de_compra/28_revisar_y_autorizar_desde_presupuesto.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/28_revisar_y_autorizar_desde_presupuesto.vtt",
+    "duracion": 128.0
   },
   {
     "id": 34,
+    "numero": 28,
+    "guia": "29",
     "modulo": "Autorización y gestión de compras",
     "perfil": "Subdirector SDAF",
-    "titulo": "Cómo autorizar una solicitud de compra",
-    "descripcion": "Objetivo: cómo autorizar una solicitud de compra.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Autorizar como subdirector administrativo y financiero",
+    "descripcion": "Revise si la solicitud está En Revisión o en Pendientes; las acciones cambian según esa etapa.",
+    "pasos": [
+      "Abrir Subdirector Finanzas. En el menú lateral, presione Subdirector Finanzas. Si la opción está más abajo, desplácese dentro del menú.",
+      "Elegir la etapa. Revise En Revisión o Pendientes según el estado de su solicitud. En Revisión corresponde continuar la revisión de Presupuesto o Finanzas; en Pendientes se realiza el avance a Abastecimiento.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Enviar Solicitud. En el menú Acciones, seleccione Enviar Solicitud.",
+      "Revisar y enviar a Abastecimiento. Revise los antecedentes, seleccione al funcionario de Abastecimiento en Seleccionar funcionario y presione Enviar. Compruebe el movimiento en el historial."
+    ],
+    "video": "videos/solicitudes_de_compra/29_autorizar_como_subdirector_administrativo_y_financiero.mp4",
+    "documento": "documentacion/solicitudes_de_compra/29_autorizar_como_subdirector_administrativo_y_financiero.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/29_autorizar_como_subdirector_administrativo_y_financiero.vtt",
+    "duracion": 135.0
   },
   {
     "id": 35,
+    "numero": 29,
+    "guia": "30",
     "modulo": "Autorización y gestión de compras",
     "perfil": "Jefe de Abastecimiento",
-    "titulo": "Cómo revisar y autorizar solicitudes",
-    "descripcion": "Objetivo: cómo revisar y autorizar solicitudes.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Revisar y autorizar como jefe de Abastecimiento",
+    "descripcion": "Confirme que la solicitud esté pendiente en su bandeja.",
+    "pasos": [
+      "Abrir Encargado Abastecimiento. En el menú lateral, presione Encargado Abastecimiento. Si la opción está más abajo, desplácese dentro del menú.",
+      "Revisar la solicitud pendiente. En Pendientes, ubique la solicitud y despliegue su detalle. Revise datos, artículos, adjuntos y observaciones.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Enviar Solicitud. En el menú Acciones, seleccione Enviar Solicitud.",
+      "Seleccionar la unidad y enviar. Seleccione al encargado de la unidad que continuará la compra y presione Enviar. Compruebe el estado y el historial. Si necesita corregir antecedentes, use Enviar Observación en Acciones."
+    ],
+    "video": "videos/solicitudes_de_compra/30_revisar_y_autorizar_como_jefe_de_abastecimiento.mp4",
+    "documento": "documentacion/solicitudes_de_compra/30_revisar_y_autorizar_como_jefe_de_abastecimiento.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/30_revisar_y_autorizar_como_jefe_de_abastecimiento.vtt",
+    "duracion": 128.0
   },
   {
     "id": 36,
+    "numero": 30,
+    "guia": "31",
     "modulo": "Autorización y gestión de compras",
     "perfil": "Jefe de Adquisiciones",
-    "titulo": "Cómo asignar un comprador",
-    "descripcion": "Objetivo: cómo asignar un comprador.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Asignar un comprador",
+    "descripcion": "Confirme qué comprador debe hacerse cargo de la solicitud.",
+    "pasos": [
+      "Abrir Encargado Unidad. En el menú lateral, presione Encargado Unidad. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Asignar Compradores. En el menú Acciones, seleccione Asignar Compradores.",
+      "Seleccionar y asignar. En Seleccionar Compradores, elija a quienes gestionarán la compra. Presione Asignar.",
+      "Comprobar la asignación. Revise Compradores Asignados antes de cerrar. Asignar un comprador todavía no registra la compra ni su CDP."
+    ],
+    "video": "videos/solicitudes_de_compra/31_asignar_un_comprador.mp4",
+    "documento": "documentacion/solicitudes_de_compra/31_asignar_un_comprador.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/31_asignar_un_comprador.vtt",
+    "duracion": 114.0
   },
   {
     "id": 37,
+    "numero": 31,
+    "guia": "32",
     "modulo": "Autorización y gestión de compras",
     "perfil": "Comprador",
-    "titulo": "Cómo registrar una compra y CDP",
-    "descripcion": "Objetivo: cómo registrar una compra y CDP.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
-  },
-  {
-    "id": 38,
-    "modulo": "Administración de FÉNIX",
-    "perfil": "Administrador",
-    "titulo": "Cómo crear una cuenta de usuario",
-    "descripcion": "Objetivo: cómo crear una cuenta de usuario.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Registrar la compra y el CDP",
+    "descripcion": "Tenga los datos de la orden o licitación, los respaldos y los datos del CDP.",
+    "pasos": [
+      "Abrir Comprador. En el menú lateral, presione Comprador. Si la opción está más abajo, desplácese dentro del menú.",
+      "Abrir Acciones. Ubique la solicitud por su ID y presione Acciones en esa fila.",
+      "Seleccionar Registros de Compra. En el menú Acciones, seleccione Registros de Compra.",
+      "Generar el registro. Presione Generar Registro.",
+      "Completar la compra. Complete N° de Orden, N° de Licitación y Observación. Presione Siguiente para pasar a CDP.",
+      "Abrir Agregar CDP. En el paso CDP, presione Agregar CDP.",
+      "Completar el certificado. Complete Título, Solicitud N°, Plan de Compras y Detalle de la Compra. Seleccione los artículos del CDP.",
+      "Revisar los datos presupuestarios. Desplácese hacia abajo. Revise Proveedor, Presupuesto, montos, Mes Devengado y Mes de Pago. Complete los demás datos que correspondan y presione Agregar CDP.",
+      "Adjuntar respaldos y guardar. Vuelva al registro y avance con Siguiente a Adjuntos. Si necesita respaldos, seleccione cada archivo y presione Subir. Revise el listado y presione Guardar. Fénix generará el CDP con los datos ingresados."
+    ],
+    "video": "videos/solicitudes_de_compra/32_registrar_la_compra_y_el_cdp.mp4",
+    "documento": "documentacion/solicitudes_de_compra/32_registrar_la_compra_y_el_cdp.pdf",
+    "subtitulos": "subtitulos/solicitudes_de_compra/32_registrar_la_compra_y_el_cdp.vtt",
+    "duracion": 189.5
   },
   {
     "id": 39,
+    "numero": 32,
+    "guia": "05",
     "modulo": "Administración de FÉNIX",
     "perfil": "Administrador",
-    "titulo": "Cómo administrar usuarios del establecimiento",
-    "descripcion": "Objetivo: cómo administrar usuarios del establecimiento.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Administrar usuarios del establecimiento",
+    "descripcion": "Confirme el establecimiento y los permisos que corresponde asignar a la persona.",
+    "pasos": [
+      "Abrir Mantenedor Usuarios. En el menú lateral, presione Mantenedor Usuarios. Si la opción está más abajo, desplácese dentro del menú.",
+      "Buscar a la persona. Busque por nombre, RUT o correo. Si aparece el filtro de establecimiento, seleccione el que corresponde.",
+      "Crear o editar una cuenta. Para una cuenta nueva, use el botón +. Para cambiar una existente, presione el lápiz de su fila.",
+      "Completar los datos generales. En Datos generales, complete o revise los datos personales, el correo y el establecimiento. La imagen muestra la creación de una cuenta.",
+      "Asignar los perfiles. Abra Perfiles. Seleccione el cargo y la ubicación que corresponden a la persona y agréguelos al listado de perfiles.",
+      "Asignar los módulos y guardar. Abra Módulos y asigne únicamente los accesos que correspondan. Revise las secciones y presione Guardar. Después vuelva a buscar la cuenta para comprobarla.",
+      "Otras acciones de la cuenta. Si debe cambiar una contraseña o desactivar la cuenta, vuelva a la fila. Use la llave para Cambiar contraseña o la persona tachada para Pasivar Usuario. Revise la confirmación antes de aceptar."
+    ],
+    "video": "videos/acceso_y_cuentas/05_administrar_usuarios_del_establecimiento.mp4",
+    "documento": "documentacion/acceso_y_cuentas/05_administrar_usuarios_del_establecimiento.pdf",
+    "subtitulos": "subtitulos/acceso_y_cuentas/05_administrar_usuarios_del_establecimiento.vtt",
+    "duracion": 176.0
   },
   {
     "id": 40,
+    "numero": 33,
+    "guia": "06",
     "modulo": "Administración de FÉNIX",
     "perfil": "Administrador",
-    "titulo": "Cómo administrar departamentos y unidades",
-    "descripcion": "Objetivo: cómo administrar departamentos y unidades.",
-    "pasos": [],
-    "video": "",
-    "documento": ""
+    "titulo": "Administrar ubicaciones",
+    "descripcion": "Confirme el nombre, el tipo y la ubicación superior que tendrá la nueva ubicación.",
+    "pasos": [
+      "Abrir Mantenedor de Locaciones. En el menú lateral, presione Mantenedor de Locaciones. Si la opción está más abajo, desplácese dentro del menú.",
+      "Crear o editar una ubicación. Revise Locaciones del establecimiento. Presione Nueva locación para agregar una, o el lápiz de la fila para editarla.",
+      "Completar la ubicación. Escriba Nombre y seleccione Tipo de locación. Si corresponde, elija Locación padre: es la ubicación superior de la que depende.",
+      "Guardar. Presione Guardar y compruebe la ubicación en el listado.",
+      "Eliminar solo si corresponde. Para quitar una ubicación, use la papelera de su fila. Lea la confirmación del navegador antes de aceptar."
+    ],
+    "video": "videos/acceso_y_cuentas/06_administrar_ubicaciones.mp4",
+    "documento": "documentacion/acceso_y_cuentas/06_administrar_ubicaciones.pdf",
+    "subtitulos": "subtitulos/acceso_y_cuentas/06_administrar_ubicaciones.vtt",
+    "duracion": 127.0
   }
 ];
+const aliasTutorial = {"10": 9, "11": 9, "24": 23, "38": 39, "13": 12};

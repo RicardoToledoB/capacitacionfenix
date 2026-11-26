@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:20.000
+Fénix. Consultar el historial de un documento. Revisar quién participó y qué acciones se realizaron sobre un archivo. Antes de empezar: Identifique el archivo cuyo historial necesita revisar.
+
+00:00:20.000 --> 00:00:34.500
+Paso 1. Abrir Documentos. En el menú lateral, presione Documentos. Si la opción está más abajo, desplácese dentro del menú.
+
+00:00:34.500 --> 00:00:48.000
+Paso 2. Elegir la bandeja. Abra Mis Documentos si usted creó el registro. Para uno recibido, use Solicitudes.
+
+00:00:48.000 --> 00:01:03.500
+Paso 3. Abrir el detalle. Ubique la fila por ID, número o descripción. Presione el icono Ver detalle del documento, con forma de hojas.
+
+00:01:03.500 --> 00:01:17.500
+Paso 4. Desplegar el archivo. En el detalle, presione la fila que contiene el nombre del PDF para mostrar sus opciones.
+
+00:01:17.500 --> 00:01:31.500
+Paso 5. Leer los movimientos. Revise la tabla Origen, Destino, Estado y Fecha que aparece bajo las opciones del archivo.
+
+00:01:31.500 --> 00:01:51.000
+Paso 6. Consultar observaciones y otras páginas. Use el icono de observación del movimiento para leer su detalle. Si hay más movimientos, use los controles de página de la tabla.
+
+00:01:51.000 --> 00:02:14.500
+Resultado esperado. Puede identificar los participantes, las fechas y los estados de los movimientos visibles. Tenga presente. Si el documento contiene más de un archivo o versión, revise el historial del archivo correspondiente.
